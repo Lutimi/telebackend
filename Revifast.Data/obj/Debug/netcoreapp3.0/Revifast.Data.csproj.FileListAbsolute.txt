@@ -1,0 +1,78 @@
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Projects Visual Studio 2019\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Projects Visual Studio 2019\Aplicaciones Web\Avances Fernando\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\2019-2\Aplicaciones_web\RevifastUltimito\Ultimo\Revifast(vFinal)\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Projects Restfull\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
