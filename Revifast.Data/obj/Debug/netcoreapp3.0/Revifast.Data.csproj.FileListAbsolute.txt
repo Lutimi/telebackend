@@ -76,3 +76,18 @@ D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\R
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Escritorio\repos\telebackend\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\Escritorio\repos\telebackend\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\Escritorio\repos\telebackend\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\Escritorio\repos\telebackend\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Escritorio\repos\telebackend\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Escritorio\repos\telebackend\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Escritorio\repos\telebackend\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Escritorio\repos\telebackend\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\Escritorio\repos\telebackend\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\Escritorio\repos\telebackend\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\Escritorio\repos\telebackend\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CoreCompileInputs.cache
+D:\Escritorio\repos\telebackend\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\Escritorio\repos\telebackend\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Escritorio\repos\telebackend\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Escritorio\repos\telebackend\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.genruntimeconfig.cache

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "Gl6PjeWyqbeZGq1l+ijxgfR8UoBtstKraZ0iU7Tknr2TeujNsEizRBFAHyHOtZIXUoUIrLY69GNqbu4qa0sWHg==",
+  "success": true,
+  "projectFilePath": "D:\\Escritorio\\repos\\telebackend\\Revifast.Entities\\Revifast.Entities.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\misat\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\3.0.1\\microsoft.aspnetcore.app.ref.3.0.1.nupkg.sha512",
+    "C:\\Users\\misat\\.nuget\\packages\\microsoft.netcore.app.ref\\3.0.0\\microsoft.netcore.app.ref.3.0.0.nupkg.sha512",
+    "C:\\Users\\misat\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\3.0.0\\microsoft.windowsdesktop.app.ref.3.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

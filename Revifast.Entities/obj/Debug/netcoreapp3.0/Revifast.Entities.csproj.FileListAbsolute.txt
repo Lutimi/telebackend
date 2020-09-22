@@ -45,3 +45,12 @@ D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Entities\obj\Debug\netcoreapp3
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.AssemblyInfo.cs
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.dll
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Escritorio\repos\telebackend\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.deps.json
+D:\Escritorio\repos\telebackend\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Escritorio\repos\telebackend\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Escritorio\repos\telebackend\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.csprojAssemblyReference.cache
+D:\Escritorio\repos\telebackend\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.AssemblyInfoInputs.cache
+D:\Escritorio\repos\telebackend\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.AssemblyInfo.cs
+D:\Escritorio\repos\telebackend\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.csproj.CoreCompileInputs.cache
+D:\Escritorio\repos\telebackend\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Escritorio\repos\telebackend\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.pdb

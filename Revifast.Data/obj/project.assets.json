@@ -1982,11 +1982,12 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -2243,7 +2244,7 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
@@ -4878,24 +4879,27 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Piero\\.nuget\\packages\\": {},
+    "C:\\Users\\misat\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Data\\Revifast.Data.csproj",
+      "projectUniqueName": "D:\\Escritorio\\repos\\telebackend\\Revifast.Data\\Revifast.Data.csproj",
       "projectName": "Revifast.Data",
-      "projectPath": "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Data\\Revifast.Data.csproj",
-      "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-      "outputPath": "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Data\\obj\\",
+      "projectPath": "D:\\Escritorio\\repos\\telebackend\\Revifast.Data\\Revifast.Data.csproj",
+      "packagesPath": "C:\\Users\\misat\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\repos\\telebackend\\Revifast.Data\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\misat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -4907,8 +4911,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Entities\\Revifast.Entities.csproj": {
-              "projectPath": "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Entities\\Revifast.Entities.csproj"
+            "D:\\Escritorio\\repos\\telebackend\\Revifast.Entities\\Revifast.Entities.csproj": {
+              "projectPath": "D:\\Escritorio\\repos\\telebackend\\Revifast.Entities\\Revifast.Entities.csproj"
             }
           }
         }
@@ -4943,12 +4947,26 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.NETCore.App": {
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }
