@@ -41,12 +41,6 @@ namespace Revifast.Data
                 .HasForeignKey(r => r.LocalId)
                 .OnDelete(DeleteBehavior.ClientSetNull)
                 .HasConstraintName("Reserva_Local");
-            // PAGO ADELANTADO
-            builder.HasOne(r => r.PagoAdelantado)
-                .WithMany(r => r.Reservas)
-                .HasForeignKey(r => r.PagoAdelantadoId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Reserva_PagoAdelantado");
             // RESERVA ESTADO
             builder.HasOne(r => r.ReservaEstado)
                 .WithMany(r => r.Reservas)

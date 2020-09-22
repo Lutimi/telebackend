@@ -19,12 +19,6 @@ namespace Revifast.Data
                 .HasColumnName("Nombre")
                 .HasMaxLength(20)
                 .IsUnicode(false);
-            // ---------- HAS ONE
-            builder.HasOne(d => d.Provincia)
-                .WithMany(d => d.Distritos)
-                .HasForeignKey(d => d.ProvinciaId)
-                .OnDelete(DeleteBehavior.ClientSetNull)
-                .HasConstraintName("Distrito_Provincia");
         }
     }
 }

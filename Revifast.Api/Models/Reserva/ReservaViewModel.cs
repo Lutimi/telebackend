@@ -21,7 +21,6 @@ namespace Revifast.Api.Models.Reserva
         //LOCAL (EMPRESA)
         public string Local { get; set; }
         //PAGO ADELANTADO
-        public string PagoAdelantado { get; set; }
         public decimal PaAdPorcentaje { get; set; }
         //RESERVA ESTADO
         public string Estado { get; set; }

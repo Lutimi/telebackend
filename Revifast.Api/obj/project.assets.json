@@ -411,6 +411,17 @@
           "lib/netstandard2.1/_._": {}
         }
       },
+      "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "build/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props": {},
+          "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets": {}
+        }
+      },
       "Microsoft.Extensions.Caching.Abstractions/3.0.0": {
         "type": "package",
         "dependencies": {
@@ -588,6 +599,15 @@
         },
         "runtime": {
           "lib/netstandard1.0/_._": {}
+        }
+      },
+      "Microsoft.OpenApi/1.2.3": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
       "Microsoft.VisualStudio.Web.CodeGeneration/3.0.0": {
@@ -1005,6 +1025,60 @@
             "rid": "win-x86"
           }
         }
+      },
+      "Swashbuckle.AspNetCore/5.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.ApiDescription.Server": "3.0.0",
+          "Swashbuckle.AspNetCore.Swagger": "5.6.2",
+          "Swashbuckle.AspNetCore.SwaggerGen": "5.6.2",
+          "Swashbuckle.AspNetCore.SwaggerUI": "5.6.2"
+        },
+        "build": {
+          "build/Swashbuckle.AspNetCore.props": {}
+        }
+      },
+      "Swashbuckle.AspNetCore.Swagger/5.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.OpenApi": "1.2.3"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerGen/5.6.2": {
+        "type": "package",
+        "dependencies": {
+          "Swashbuckle.AspNetCore.Swagger": "5.6.2"
+        },
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
+      },
+      "Swashbuckle.AspNetCore.SwaggerUI/5.6.2": {
+        "type": "package",
+        "compile": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.AspNetCore.App"
+        ]
       },
       "System.AppContext/4.3.0": {
         "type": "package",
@@ -2502,7 +2576,8 @@
         "framework": ".NETCoreApp,Version=v3.0",
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "3.0.0",
-          "Revifast.Entities": "1.0.0"
+          "Revifast.Entities": "1.0.0",
+          "Swashbuckle.AspNetCore": "5.6.2"
         },
         "compile": {
           "bin/placeholder/Revifast.Data.dll": {}
@@ -2514,6 +2589,9 @@
       "Revifast.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v3.0",
+        "dependencies": {
+          "Swashbuckle.AspNetCore": "5.6.2"
+        },
         "compile": {
           "bin/placeholder/Revifast.Entities.dll": {}
         },
@@ -2954,6 +3032,33 @@
         "tools/netcoreapp2.0/any/ef.runtimeconfig.json"
       ]
     },
+    "Microsoft.Extensions.ApiDescription.Server/3.0.0": {
+      "sha512": "LH4OE/76F6sOCslif7+Xh3fS/wUUrE5ryeXAMcoCnuwOQGT5Smw0p57IgDh/pHgHaGz/e+AmEQb7pRgb++wt0w==",
+      "type": "package",
+      "path": "microsoft.extensions.apidescription.server/3.0.0",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Microsoft.Extensions.ApiDescription.Server.props",
+        "build/Microsoft.Extensions.ApiDescription.Server.targets",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.props",
+        "buildMultiTargeting/Microsoft.Extensions.ApiDescription.Server.targets",
+        "microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
+        "microsoft.extensions.apidescription.server.nuspec",
+        "tools/Newtonsoft.Json.dll",
+        "tools/dotnet-getdocument.deps.json",
+        "tools/dotnet-getdocument.dll",
+        "tools/dotnet-getdocument.runtimeconfig.json",
+        "tools/net461-x86/GetDocument.Insider.exe",
+        "tools/net461-x86/GetDocument.Insider.exe.config",
+        "tools/net461/GetDocument.Insider.exe",
+        "tools/net461/GetDocument.Insider.exe.config",
+        "tools/netcoreapp2.1/GetDocument.Insider.deps.json",
+        "tools/netcoreapp2.1/GetDocument.Insider.dll",
+        "tools/netcoreapp2.1/GetDocument.Insider.runtimeconfig.json"
+      ]
+    },
     "Microsoft.Extensions.Caching.Abstractions/3.0.0": {
       "sha512": "Cw96xf6KLMlljnAzaAd5ABHut33wmkZBqG5yf8uV09Gp03XH+8xQpXkB3T3jMh5BciGkk5jcvanuvBsTnw5z2Q==",
       "type": "package",
@@ -3201,6 +3306,23 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.OpenApi/1.2.3": {
+      "sha512": "Nug3rO+7Kl5/SBAadzSMAVgqDlfGjJZ0GenQrLywJ84XGKO0uRqkunz5Wyl0SDwcR71bAATXvSdbdzPrYRYKGw==",
+      "type": "package",
+      "path": "microsoft.openapi/1.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net46/Microsoft.OpenApi.dll",
+        "lib/net46/Microsoft.OpenApi.pdb",
+        "lib/net46/Microsoft.OpenApi.xml",
+        "lib/netstandard2.0/Microsoft.OpenApi.dll",
+        "lib/netstandard2.0/Microsoft.OpenApi.pdb",
+        "lib/netstandard2.0/Microsoft.OpenApi.xml",
+        "microsoft.openapi.1.2.3.nupkg.sha512",
+        "microsoft.openapi.nuspec"
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/3.0.0": {
@@ -3807,11 +3929,12 @@
       ]
     },
     "runtime.native.System.IO.Compression/4.3.0": {
-      "sha512": "b+V9JC/Ii3sR659flBeaBJww111425tgjcDS1k+hqV4sGh9FALRDBvJnDtQ895gAzpPTUOFDHdqaZ2Et7BpZMg==",
+      "sha512": "INBPonS5QPEgn7naufQFXJEp3zX6L4bwHgJ/ZH78aBTpeNfQMtf7C6VrAFhlq2xxWBveIOWyFzQjJ8XzHMhdOQ==",
       "type": "package",
       "path": "runtime.native.system.io.compression/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -3913,11 +4036,12 @@
       ]
     },
     "runtime.rhel.7-x64.runtime.native.System.Security.Cryptography.OpenSsl/4.3.0": {
-      "sha512": "T5NvFgmHX0WH4c7lP72krsnk+IJI10vJf2j2twGE+5QBRA4RyRAgD+ZjEgdmpLOjW4B+nZGaadewTCUcR899OQ==",
+      "sha512": "nyFNiCk/r+VOiIqreLix8yN+q3Wga9+SE8BCgkf+2BwEKiNx6DyvFjCgkfV743/grxv8jHJ8gUK4XEQw7yzRYg==",
       "type": "package",
       "path": "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "runtime.rhel.7-x64.runtime.native.system.security.cryptography.openssl.4.3.0.nupkg.sha512",
@@ -4007,6 +4131,69 @@
         "runtimes/win-x86/native/sni.dll",
         "useSharedDesignerContext.txt",
         "version.txt"
+      ]
+    },
+    "Swashbuckle.AspNetCore/5.6.2": {
+      "sha512": "qjEOSnG4Ot0BqYvF7Wgn+ytzwVtpbSB+3qfTw46azivILqQDr9y8aAI234dNg1CxqvmEEZjI9LOu5iPpd9IjVw==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore/5.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "build/Swashbuckle.AspNetCore.props",
+        "swashbuckle.aspnetcore.5.6.2.nupkg.sha512",
+        "swashbuckle.aspnetcore.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.Swagger/5.6.2": {
+      "sha512": "rrM6WHjPFJYQjo/SfIfhBbHngfELgk+GkVEBi8TQPUwpil8ckq1RHYfR55aDEf+X5kKzFTNy3PyrLMmGVVx3WA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swagger/5.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.Swagger.xml",
+        "swashbuckle.aspnetcore.swagger.5.6.2.nupkg.sha512",
+        "swashbuckle.aspnetcore.swagger.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerGen/5.6.2": {
+      "sha512": "R2CAdB/q8TwYTm3JKlDP6ZH2WlJXz1p0qR50aU2ykrZ/6M/nCQh0NXe66pPw5DZJHQ82pe7vtSvElBn/M92l8g==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggergen/5.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerGen.xml",
+        "swashbuckle.aspnetcore.swaggergen.5.6.2.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggergen.nuspec"
+      ]
+    },
+    "Swashbuckle.AspNetCore.SwaggerUI/5.6.2": {
+      "sha512": "YtQyyND/XJXPpw9fVUfvqG3pCFFGRJXrFyx759qL7Sp8L1TfxxRuVbtAk8hfwdacd8lvKhYqj+Skv17z3oP0VA==",
+      "type": "package",
+      "path": "swashbuckle.aspnetcore.swaggerui/5.6.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netcoreapp3.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.dll",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.pdb",
+        "lib/netstandard2.0/Swashbuckle.AspNetCore.SwaggerUI.xml",
+        "swashbuckle.aspnetcore.swaggerui.5.6.2.nupkg.sha512",
+        "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
     "System.AppContext/4.3.0": {
@@ -4235,11 +4422,12 @@
       ]
     },
     "System.Collections.NonGeneric/4.3.0": {
-      "sha512": "LE/oChpRvkSi3U25u0KnJcI44JeDZ1QJCyN4qFDx2uusEypdqR24w7lKYw21eYe5esuCBuc862wRmpF63Yy1KQ==",
+      "sha512": "prtjIEMhGUnQq6RnPEYLpFt8AtLbp9yq2zxOSrY7KJJZrw25Fi97IzBqY7iqssbM61Ek5b8f3MG/sG1N2sN5KA==",
       "type": "package",
       "path": "system.collections.nongeneric/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -4496,11 +4684,12 @@
       ]
     },
     "System.ComponentModel.TypeConverter/4.3.0": {
-      "sha512": "HZiP0DwTHJ+C+rdFqP47nBYUh5283kcwXIGY2zOVVhsJmVI/2tYiX2zNRdjRQRHsTox58Ydkec6h0pWSh8wAsw==",
+      "sha512": "16pQ6P+EdhcXzPiEK4kbA953Fu0MNG2ovxTZU81/qsCd1zPRsKc3uif5NgvllCY598k6bI0KUyKW8fanlfaDQg==",
       "type": "package",
       "path": "system.componentmodel.typeconverter/4.3.0",
       "files": [
         ".nupkg.metadata",
+        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -8066,28 +8255,32 @@
       "Microsoft.EntityFrameworkCore.Tools >= 3.0.0",
       "Microsoft.Extensions.Logging.Debug >= 3.0.0",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.0.0",
-      "Revifast.Data >= 1.0.0"
+      "Revifast.Data >= 1.0.0",
+      "Swashbuckle.AspNetCore >= 5.6.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Piero\\.nuget\\packages\\": {},
+    "C:\\Users\\misat\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Api\\Revifast.Api.csproj",
+      "projectUniqueName": "D:\\Escritorio\\Revifast\\Revifast.Api\\Revifast.Api.csproj",
       "projectName": "Revifast.Api",
-      "projectPath": "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Api\\Revifast.Api.csproj",
-      "packagesPath": "C:\\Users\\Piero\\.nuget\\packages\\",
-      "outputPath": "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Api\\obj\\",
+      "projectPath": "D:\\Escritorio\\Revifast\\Revifast.Api\\Revifast.Api.csproj",
+      "packagesPath": "C:\\Users\\misat\\.nuget\\packages\\",
+      "outputPath": "D:\\Escritorio\\Revifast\\Revifast.Api\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Piero\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\misat\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.0"
@@ -8099,8 +8292,8 @@
       "frameworks": {
         "netcoreapp3.0": {
           "projectReferences": {
-            "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Data\\Revifast.Data.csproj": {
-              "projectPath": "D:\\RevifastApp\\Aplicaciones Web\\Revifast\\Revifast.Data\\Revifast.Data.csproj"
+            "D:\\Escritorio\\Revifast\\Revifast.Data\\Revifast.Data.csproj": {
+              "projectPath": "D:\\Escritorio\\Revifast\\Revifast.Data\\Revifast.Data.csproj"
             }
           }
         }
@@ -8127,6 +8320,10 @@
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",
             "version": "[3.0.0, )"
+          },
+          "Swashbuckle.AspNetCore": {
+            "target": "Package",
+            "version": "[5.6.2, )"
           }
         },
         "imports": [
@@ -8139,6 +8336,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[3.0.1, 3.0.1]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[3.0.3, 3.0.3]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[3.0.0, 3.0.0]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -8147,7 +8362,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
       }
     }
   }

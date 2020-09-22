@@ -76,3 +76,31 @@ D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\R
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\UPC\Practica1\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\UPC\Practica1\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\UPC\Practica1\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\UPC\Practica1\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\UPC\Practica1\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\UPC\Practica1\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\UPC\Practica1\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\UPC\Practica1\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\UPC\Practica1\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\UPC\Practica1\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\UPC\Practica1\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\UPC\Practica1\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\UPC\Practica1\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Escritorio\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.deps.json
+D:\Escritorio\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.json
+D:\Escritorio\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.runtimeconfig.dev.json
+D:\Escritorio\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Escritorio\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Escritorio\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Escritorio\Revifast\Revifast.Data\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Escritorio\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csprojAssemblyReference.cache
+D:\Escritorio\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfoInputs.cache
+D:\Escritorio\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.AssemblyInfo.cs
+D:\Escritorio\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CoreCompileInputs.cache
+D:\Escritorio\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.csproj.CopyComplete
+D:\Escritorio\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.dll
+D:\Escritorio\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.pdb
+D:\Escritorio\Revifast\Revifast.Data\obj\Debug\netcoreapp3.0\Revifast.Data.genruntimeconfig.cache

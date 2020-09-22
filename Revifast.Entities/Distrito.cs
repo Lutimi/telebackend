@@ -22,7 +22,6 @@ namespace Revifast.Entities
         // PROVINCIA
         [Required(ErrorMessage = "Provincia es requerido")]
         public int ProvinciaId { get; set; }
-        public virtual Provincia Provincia { get; set; }
         // ---------- HAS MANY
         // LOCALES
         public virtual ICollection<Local> Locales { get; set; }

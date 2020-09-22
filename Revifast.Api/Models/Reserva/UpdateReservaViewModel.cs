@@ -15,7 +15,6 @@ namespace Revifast.Api.Models.Reserva
         // LOCAL (EMPRESA)
         public int LocalId { get; set; }
         // PAGO ADELANTADO
-        public int PagoAdelantadoId { get; set; }
         // RESERVA ESTADO
         public int ReservaEstadoId { get; set; }
     }

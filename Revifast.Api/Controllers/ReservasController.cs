@@ -37,8 +37,6 @@ namespace Revifast.Api.Controllers
                 Observaciones = c.Observaciones,
                 Vehiculo = _context.Vehiculos.FindAsync(c.VehiculoId).Result.Placa,
                 Local = _context.Locales.FindAsync(c.LocalId).Result.Direccion,
-                PagoAdelantado = _context.PagoAdelantados.FindAsync(c.PagoAdelantadoId).Result.Nombre,
-                PaAdPorcentaje = _context.PagoAdelantados.FindAsync(c.PagoAdelantadoId).Result.Procentaje,
                 Estado = _context.ReservaEstados.FindAsync(c.ReservaEstadoId).Result.Estado,
             });
         }
@@ -118,7 +116,6 @@ namespace Revifast.Api.Controllers
                 Observaciones = model.Observaciones,
                 VehiculoId = model.VehiculoId,
                 LocalId = model.LocalId,
-                PagoAdelantadoId = model.PagoAdelantadoId,
                 ReservaEstadoId = model.ReservaEstadoId,
             };
 

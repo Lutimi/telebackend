@@ -45,3 +45,20 @@ D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Entities\obj\Debug\netcoreapp3
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.AssemblyInfo.cs
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.dll
 D:\RevifastApp\Aplicaciones Web\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\UPC\Practica1\Revifast\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.deps.json
+D:\UPC\Practica1\Revifast\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\UPC\Practica1\Revifast\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\UPC\Practica1\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.csprojAssemblyReference.cache
+D:\UPC\Practica1\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.AssemblyInfoInputs.cache
+D:\UPC\Practica1\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.AssemblyInfo.cs
+D:\UPC\Practica1\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\UPC\Practica1\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Escritorio\Revifast\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.deps.json
+D:\Escritorio\Revifast\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Escritorio\Revifast\Revifast.Entities\bin\Debug\netcoreapp3.0\Revifast.Entities.pdb
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.csprojAssemblyReference.cache
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.AssemblyInfoInputs.cache
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.AssemblyInfo.cs
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.csproj.CoreCompileInputs.cache
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.dll
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp3.0\Revifast.Entities.pdb

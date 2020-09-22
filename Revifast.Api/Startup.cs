@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.OpenApi.Models;
 using Revifast.Data;
 
 namespace Revifast.Api
@@ -36,6 +37,10 @@ namespace Revifast.Api
                 migration => migration.MigrationsAssembly("Revifast.Api")));
 
             services.AddCors(options => options.AddPolicy("pelusa", builder => builder.WithOrigins("*").WithHeaders("*").WithMethods("*")));
+            services.AddSwaggerGen(c =>
+            {
+                c.SwaggerDoc("v1", new OpenApiInfo { Title = "My API", Version = "v1" });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -58,6 +63,11 @@ namespace Revifast.Api
             {
                 endpoints.MapControllers();
             });
+
+            app.UseSwagger();
+            app.UseSwaggerUI(c=>
+            { c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1"); });
+
         }
     }
 }

@@ -9,7 +9,6 @@ namespace Revifast.Entities
     {
         public Departamento()
         {
-            Provincias = new HashSet<Provincia>();
         }
         // ID
         public int DepartamentoId { get; set; }
@@ -20,6 +19,5 @@ namespace Revifast.Entities
         public string Nombre { get; set; }
         // ---------- HAS ONE
         // ---------- HAS MANY
-        public virtual ICollection<Provincia> Provincias { get; set; }
     }
 }

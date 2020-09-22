@@ -26,9 +26,6 @@ namespace Revifast.Entities
         public int LocalId { get; set; }
         public virtual Local Local { get; set; }
         // PAGO ADELANTADO
-        public int PagoAdelantadoId { get; set; }
-        public virtual PagoAdelantado PagoAdelantado { get; set; }
-        // RESERVA ESTADO
         public int ReservaEstadoId { get; set; }
         public virtual ReservaEstado ReservaEstado { get; set; }
         // ---------- HAS MANY

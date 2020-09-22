@@ -16,14 +16,12 @@ namespace Revifast.Data
         // 2do
         public DbSet<Departamento> Departamento { get; set; }
         public DbSet<Distrito> Distritos { get; set; }
-        public DbSet<Provincia> Provincias { get; set; }
         // 3ro
         public DbSet<Empresa> Empresas { get; set; }
         public DbSet<Horario> Horarios { get; set; }
         public DbSet<Local> Locales { get; set; }
         public DbSet<Servicio> Servicios { get; set; }
         // 4to
-        public DbSet<PagoAdelantado> PagoAdelantados { get; set; }
         public DbSet<Promocion> Promociones { get; set; }
         public DbSet<Reserva> Reservas { get; set; }
         public DbSet<ReservaEstado> ReservaEstados { get; set; }
@@ -42,9 +40,7 @@ namespace Revifast.Data
             modelBuilder.ApplyConfiguration(new LocalMap());
             modelBuilder.ApplyConfiguration(new MarcaMap());
             modelBuilder.ApplyConfiguration(new ModeloMap());
-            modelBuilder.ApplyConfiguration(new PagoAdelantadoMap());
             modelBuilder.ApplyConfiguration(new PromocionMap());
-            modelBuilder.ApplyConfiguration(new ProvinciaMap());
             modelBuilder.ApplyConfiguration(new ReservaEstadoMap());
             modelBuilder.ApplyConfiguration(new ReservaMap());
             modelBuilder.ApplyConfiguration(new ServicioMap());

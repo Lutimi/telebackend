@@ -10,5 +10,6 @@
     <WebStackScaffolding_LayoutPageFile />
     <WebStackScaffolding_DbContextTypeFullName>Revifast.Data.DbRevifastContext</WebStackScaffolding_DbContextTypeFullName>
     <WebStackScaffolding_IsAsyncSelected>False</WebStackScaffolding_IsAsyncSelected>
+    <NameOfLastUsedPublishProfile>RevifastApi2020 - Web Deploy</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>
