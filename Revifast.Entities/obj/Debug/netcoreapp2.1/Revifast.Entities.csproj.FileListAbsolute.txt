@@ -1,0 +1,9 @@
+D:\Escritorio\Revifast\Revifast.Entities\bin\Debug\netcoreapp2.1\Revifast.Entities.deps.json
+D:\Escritorio\Revifast\Revifast.Entities\bin\Debug\netcoreapp2.1\Revifast.Entities.dll
+D:\Escritorio\Revifast\Revifast.Entities\bin\Debug\netcoreapp2.1\Revifast.Entities.pdb
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp2.1\Revifast.Entities.csprojAssemblyReference.cache
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp2.1\Revifast.Entities.csproj.CoreCompileInputs.cache
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp2.1\Revifast.Entities.AssemblyInfoInputs.cache
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp2.1\Revifast.Entities.AssemblyInfo.cs
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp2.1\Revifast.Entities.dll
+D:\Escritorio\Revifast\Revifast.Entities\obj\Debug\netcoreapp2.1\Revifast.Entities.pdb
